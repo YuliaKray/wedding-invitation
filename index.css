@@ -1,12 +1,13 @@
 @font-face {
     font-family: 'MarckScript';
-    src: url('../fonts/MarckScript-Regular.ttf') format('truetype');
+    src: url('../fonts/MarckScript-Regular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'ComicRelief';
-    src: url('../fonts/ComicRelief-Bold.ttf') format('truetype'),
-        url('../fonts/ComicRelief-Regular.ttf') format('truetype');
+    src: url('../fonts/ComicRelief-Regular.woff') format('woff'),
+        url('../fonts/ComicRelief-Bold.woff') format('woff');
+        font-display: swap;
 }
 
 :root {
@@ -17,7 +18,7 @@
 }
 
 html {
-        scroll-behavior: smooth;
+    scroll-behavior: smooth;
 
 }
 
