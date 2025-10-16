@@ -1,12 +1,17 @@
 @font-face {
     font-family: 'MarckScript';
-    src: url('../fonts/MarckScript-Regular.woff2') format('woff2');
+    src: url('./MarckScript-Regular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'ComicRelief';
-    src: url('../fonts/ComicRelief-Regular.woff') format('woff'),
-        url('../fonts/ComicRelief-Bold.woff') format('woff');
+    src: url('./ComicRelief-Regular.woff') format('woff');
+        font-display: swap;
+}
+
+@font-face {
+    font-family: 'ComicReliefBold';
+        url('./ComicRelief-Bold.woff') format('woff');
         font-display: swap;
 }
 
@@ -139,7 +144,7 @@ section + section {
 
 .our-names {
     padding: 10px;
-    font-family: 'MarckScript';
+    font-family: 'MarckScript', Arial, sans-serif;
     font-size: 48px;
     line-height: 1;
     background-color: var(--color-light-pink);
@@ -212,6 +217,7 @@ section + section {
 }
 
 .place_text span {
+    font-family: 'ComicReliefBold', Arial, sans-serif;
     font-weight: 600;
     border-bottom: 4px solid var(--color-light-pink);
 }
@@ -256,6 +262,7 @@ section + section {
 }
 
 .time_number {
+    font-family: 'ComicReliefBold', Arial, sans-serif;
     font-size: 40px;
     font-style: italic;
     font-weight: 700;
